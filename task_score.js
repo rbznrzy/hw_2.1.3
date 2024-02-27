@@ -23,4 +23,4 @@ let averageJsScore = (JS_SCORE[0] + JS_SCORE[1] + JS_SCORE[2] + JS_SCORE[3] + JS
 let averageSum = averageIntroScore + averageGitScore + averageJsScore;
 
 /** Вывод результата */
-console.log(`${studentFirstName} ${studentLastName} has ${averageSum} points`)
+console.log(`${studentFirstName.slice(0,1)}.${studentLastName} has ${averageSum} points`)
